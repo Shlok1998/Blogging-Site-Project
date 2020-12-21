@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+:root {
+  --main-bg-color: brown;
+  --font1: 'Roboto', sans-serif;
+  --font2: 'Baloo Bhaina 2', cursive;
+  --font3: 'Ubuntu', sans-serif;
+}
+
+.font1{
+  font-family: var(--font1);
+}
+
+.font2{
+  font-family: var(--font2);
+}
+
+.font3{
+  font-family: var(--font3);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.contact-box__inner input, textarea{
+  width: 40vw;
+  padding: 10px 10px;
+  margin: 8px;
+  border-radius: 10px;
+  border: 3px brown solid;
+  box-shadow: 0px 0px 5px orange;
+  font-family: var(--font3);
+  font-weight: bold;
+}
